@@ -38,9 +38,7 @@ app.use(mountPath, api);
 app.get("/", function(req, res) {
   res
     .status(200)
-    .send(
-      "I dream of being a website.  Please star the parse-server repo on GitHub?"
-    );
+    .send("I dream of being a website.  my backend for mobile apps! yaaa");
 });
 
 // There will be a test page available on the /test path of your server url
